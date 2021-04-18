@@ -1,0 +1,65 @@
+.chat {
+    background: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 600px;
+}
+
+.chat__title {
+    font-size: 50px;
+    margin: 8px auto 8px auto;
+}
+
+.chat__container_authInput {
+    width: 200px;
+    height: 50px;
+}
+
+.chat__container {
+    outline: none;
+}
+
+.chat__container_authButton {
+    height: 57px;
+}
+
+.chat__container_sendInput {
+    width: 200px;
+    height: 50px;
+}
+
+.chat__container_sendButton {
+    height: 57px;
+}
+
+.chat__item {
+    margin-top: 8px;
+    border: 1px solid gold
+}
+
+.chat__item_title {
+    display: block;
+    text-align: center;
+    margin-top: 3px;
+    opacity: 0.6;
+}
+
+.chat__item_text {
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    max-width: 350px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.chat__item_date {
+    display: block;
+    text-align: center;
+    margin-top: 3px;
+    opacity: 0.8;
+}

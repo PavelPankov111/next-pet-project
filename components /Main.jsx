@@ -13,7 +13,7 @@ export function Main({ children, title }) {
             </Head>
             <nav className="main-nav">
                 <button onClick={() => Router.push('/')}>Главная</button>
-                <button onClick={() => Router.push('/about')}>О пользователе</button>
+                <button onClick={() => Router.push('/chat')}>Чат</button>
                 <button onClick={() => Router.push('/posts')}>Посты</button>
             </nav>
             <main className="main-page">

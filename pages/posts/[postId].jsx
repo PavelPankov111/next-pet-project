@@ -3,7 +3,6 @@ import cardModule from '../../styles/card.module.css'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-
 export default function PostId({ post: serverPost }) {
     const [post, setPost] = useState(serverPost)
     const router = useRouter()
